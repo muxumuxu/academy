@@ -5,8 +5,8 @@
   p = t 'hero.subtext'
 
   section.section--training
-    h2 Nos sessions à Bordeaux
-    p Chaque session est effectuée au Bac à Sable dans le centre de Bordeaux, dans une ambiance détendue. Nous pensons que c’est le meilleur environnement pour s’initier efficacement. Chaque session a un maximum de 8 participants.
+    h2 = t 'trainings.title'
+    p = t 'trainings.text'
     
     ul.training-list
       - t('trainings.list').each do |id, training|

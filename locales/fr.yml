@@ -4,9 +4,26 @@ fr:
     title: S’initier aux bases de l’Internet
     subtext: developpement • design ux & ui • app store marketing
   trainings:
+    title: Nos sessions à Bordeaux
+    text: Chaque session est effectuée au Bac à Sable dans le centre de Bordeaux, dans une ambiance détendue. Nous pensons que c’est le meilleur environnement pour s’initier efficacement. Chaque session a un maximum de 8 participants.
     list:
-      training:
+      html-intro:
         title: Introduction au HTML et CSS
-        informations: Samedi 10 • Débutant
+        informations: Samedi 10 Octobre • Débutant
         text: |
           Tu n’as jamais codé de site Internet et tu cherches la meilleure introduction ? Ce cours est pour toi.
+      design-intro:
+        title: Introduction au design d’interface
+        informations: Dimanche 11 Octobre • Débutant
+        text: |
+          Tu veux apprendre à créer des interfaces et tu cherches la meilleure introduction ? Prépare tes pinceaux !
+      swift-intro:
+        title: Introduction à Swift pour iOS
+        informations: Samedi 17 Octobre • Débutant
+        text: |
+          Tu veux t’initier au développement sur iOS et tu as déjà de bonnes bases en code ? Viens créer ta première app !
+      html-intro-pack:
+        title: Intégrateur en herbe
+        informations: Samedi 10 & Dimanche 11 Octobre • Débutant
+        text: |
+          Un week-end entier pour t’initier aux bases de l’intégration avec du HTML, CSS et design d’interface. 👑
