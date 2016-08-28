@@ -1,0 +1,12 @@
+fr:
+  hero:
+    logo: 🎓 Muxu•Muxu
+    title: S’initier aux bases de l’Internet
+    subtext: developpement • design ux & ui • app store marketing
+  trainings:
+    list:
+      training:
+        title: Introduction au HTML et CSS
+        informations: Samedi 10 • Débutant
+        text: |
+          Tu n’as jamais codé de site Internet et tu cherches la meilleure introduction ? Ce cours est pour toi.

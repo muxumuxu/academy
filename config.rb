@@ -1,6 +1,7 @@
 ###
 # Page options, layouts, aliases and proxies
 ###
+activate :i18n, langs: %i(fr)
 
 # Per-page layout changes:
 #
