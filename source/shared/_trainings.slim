@@ -1,5 +1,12 @@
-.li
-  = image_tag "trainings/#{id}.png"
-  h3 = training[:title]
-  sub = training[:informations]
-  p = training[:text]
+section.section--training
+  h2 = t 'trainings.title'
+  p = t 'trainings.text'
+  
+  ul.training-list
+    - t('trainings.list').each do |id, training|
+      .li
+        = link_to "#{id}", target: '_blank' do
+          = image_tag "trainings/#{id}.png"
+          h3 = training[:title]
+          sub = training[:informations]
+          p = training[:text]

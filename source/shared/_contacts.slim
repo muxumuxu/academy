@@ -1,3 +1,9 @@
-.li
-  = image_tag "contacts/#{id}.png"
-  h3 = contact[:title]
+section.section--contact
+  h2 = t 'contacts.title'
+  p = t 'contacts.text'
+  
+  ul.contact-list
+    - t('contacts.list').each do |id, contact|
+      .li
+        = image_tag "contacts/#{id}.png"
+        h3 = contact[:title]
