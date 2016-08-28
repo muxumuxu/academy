@@ -27,3 +27,15 @@ fr:
         informations: Samedi 10 & Dimanche 11 Octobre • Débutant
         text: |
           Un week-end entier pour t’initier aux bases de l’intégration avec du HTML, CSS et design d’interface. 👑
+  contacts:
+    title: Tu as des questions ?
+    text: On te répond dès qu’on reçoit ton message (ou vraiment pas longtemps après).
+    list:
+      mail:
+        title: Un courriel, old school style.
+      twitter:
+        title: Un message direct sur Twitter, classico.
+      tel:
+        title: Un coup de bigophone, ça marche aussi.
+  footer:
+    text: Made with 💚 by muxu•muxu in sunny bordeaux

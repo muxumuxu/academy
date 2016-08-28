@@ -11,3 +11,11 @@
     ul.training-list
       - t('trainings.list').each do |id, training|
         = partial 'shared/trainings', locals: { id: id, training: training }
+        
+  section.section--contact
+    h2 = t 'contacts.title'
+    p = t 'contacts.text'
+    
+    ul.contact-list
+      - t('contacts.list').each do |id, contact|
+        = partial 'shared/contacts', locals: { id: id, contact: contact }
