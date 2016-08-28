@@ -5,7 +5,7 @@ section.section--training
   
   ul.training-list
     - t('trainings.list').each do |id, training|
-      .li
+      li
         = link_to "#{id}", target: '_blank' do
           = image_tag "trainings/#{id}.png"
           h3 = training[:title]
