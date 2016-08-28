@@ -1,6 +1,7 @@
 section.section--training
-  h2 = t 'trainings.title'
-  p = t 'trainings.text'
+  .training-intro
+    h2 = t 'trainings.title'
+    p = t 'trainings.text'
   
   ul.training-list
     - t('trainings.list').each do |id, training|
