@@ -1,8 +1,5 @@
 .hero
-  header
-    = link_to "#", target: '_blank', class: 'logo'
-      = t 'header.logo'
-    .city = t 'header.city.bordeaux'
+  = partial 'shared/header'
   h1 = t 'hero.title'
   p = t 'hero.subtext'
 

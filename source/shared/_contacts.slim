@@ -5,7 +5,7 @@ section.section--contact
   ul.contact-list
     - t('contacts.list').each do |id, contact|
       li
-        = link_to "", target: '_blank' do
+        = link_to "#{contact[:url]}", target: '_blank' do
           = image_tag "contacts/#{id}.png"
           h3 = contact[:title]
           p = contact[:text]

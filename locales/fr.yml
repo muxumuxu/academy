@@ -51,12 +51,12 @@ fr:
           Un message direct sur<br> Twitter, classico.
         text: |
           @wearemuxu
-        url: http://twitter.com/wearemuxu
+        url: https://twitter.com/wearemuxu
       phone:
         title: |
           Un coup de bigophone,<br> ça marche aussi.
         text: +33 6 42 32 12 12
         url: |
-          tel:06 42 32 12 12
+          tel:0642321212
   footer:
     text: Made with 💚 by muxu<span>•</span>muxu in sunny bordeaux
