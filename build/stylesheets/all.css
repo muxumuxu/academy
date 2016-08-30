@@ -1,0 +1,269 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "SansSerifCss";
+  src: url("/fonts/Sans-Serif.woff") format("woff");
+  font-weight: normal; }
+@font-face {
+  font-family: "SansSerifCss";
+  src: url("/fonts/Sans-Serif-Light.woff") format("woff");
+  font-weight: 300; }
+/* line 1, _common.sass */
+* {
+  -webkit-font-smotthing: antialiased; }
+
+/* line 4, _common.sass */
+html, body {
+  margin: 0;
+  padding: 0;
+  font: 300 16px SansSerifCss, sans-serif;
+  color: #9B9B9B; }
+
+/* line 10, _common.sass */
+body {
+  margin: 0;
+  padding: 0;
+  background: #FCFBF8; }
+
+/* line 15, _common.sass */
+h1, h2, h3, h4, h5, h6 {
+  font: 400 16px SansSerifCss, sans-serif;
+  color: #000000; }
+
+/* line 19, _common.sass */
+p {
+  line-height: 1.6em;
+  font-weight: 300; }
+
+/* line 23, _common.sass */
+a {
+  color: inherit;
+  text-decoration: none; }
+
+/* line 27, _common.sass */
+.button {
+  display: inline-block;
+  background-color: #33CC33;
+  padding: 22px 40px 19px;
+  color: white;
+  border-radius: 5px; }
+  /* line 33, _common.sass */
+  .button:hover {
+    background-color: #24B324; }
+
+/* line 36, _common.sass */
+header {
+  font-weight: normal;
+  letter-spacing: 0.05em; }
+  /* line 41, _common.sass */
+  header .logo:hover span, header .city:hover span {
+    transition: 1s;
+    transform: rotate(360deg);
+    display: inline-block; }
+  /* line 46, _common.sass */
+  header .logo span, header .city span {
+    color: #33CC33; }
+  /* line 48, _common.sass */
+  header .logo {
+    color: #000000;
+    float: left; }
+  /* line 51, _common.sass */
+  header .city {
+    float: right; }
+
+/* line 54, _common.sass */
+.wrapper {
+  background: white; }
+
+/* line 57, _common.sass */
+section, header {
+  max-width: 1040px;
+  margin: auto; }
+
+/* line 61, _common.sass */
+footer {
+  text-align: center;
+  padding: 100px 0;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  letter-spacing: 0.8em;
+  background: white; }
+  /* line 68, _common.sass */
+  footer span {
+    color: #33CC33; }
+
+@media screen and (max-width: 880px) {
+  /* line 72, _common.sass */
+  .section--training {
+    display: block !important;
+    width: auto !important;
+    padding: 100px 20px 40px !important; }
+    /* line 76, _common.sass */
+    .section--training .training-intro {
+      width: auto !important;
+      margin: 0 !important; }
+    /* line 79, _common.sass */
+    .section--training .training-list {
+      width: auto !important;
+      display: block !important; }
+      /* line 82, _common.sass */
+      .section--training .training-list li {
+        width: auto !important;
+        margin: 0 0 50px !important; }
+        /* line 85, _common.sass */
+        .section--training .training-list li .thumbnail {
+          width: auto !important; }
+
+  /* line 88, _common.sass */
+  .section--contact .contact-list {
+    display: block !important;
+    width: auto !important; }
+    /* line 91, _common.sass */
+    .section--contact .contact-list li {
+      width: auto !important;
+      display: block;
+      margin-bottom: 40px; } }
+/* line 1, components/_hero.sass */
+.hero {
+  text-align: center;
+  background: #FCFBF8 url(../images/hero-bg.svg) repeat-x bottom;
+  padding: 20px;
+  overflow: hidden; }
+  /* line 6, components/_hero.sass */
+  .hero h1 {
+    font-size: 2.6em;
+    margin: 150px 0 10px;
+    font-weight: 300; }
+  /* line 10, components/_hero.sass */
+  .hero p {
+    margin: 0 0 150px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.3em; }
+
+/* line 1, components/_trainings.sass */
+.section--training {
+  display: flex;
+  padding: 100px 0 40px; }
+  /* line 4, components/_trainings.sass */
+  .section--training .training-intro {
+    width: 290px;
+    flex-wrap: wrap;
+    margin: 0 50px 0 0; }
+    /* line 8, components/_trainings.sass */
+    .section--training .training-intro h2 {
+      font-size: 2em;
+      margin: 0 0 30px; }
+  /* line 11, components/_trainings.sass */
+  .section--training .training-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 700px; }
+    /* line 18, components/_trainings.sass */
+    .section--training .training-list li {
+      padding: 0;
+      margin: 0 50px 50px 0;
+      width: 300px; }
+      /* line 22, components/_trainings.sass */
+      .section--training .training-list li a {
+        display: block; }
+        /* line 24, components/_trainings.sass */
+        .section--training .training-list li a .thumbnail {
+          margin-bottom: 20px;
+          width: 300px;
+          border-radius: 4px;
+          transition: 0.3s;
+          transform: background;
+          overflow: hidden; }
+          /* line 31, components/_trainings.sass */
+          .section--training .training-list li a .thumbnail.html-intro {
+            background: rgba(178, 255, 232, 0.4); }
+          /* line 33, components/_trainings.sass */
+          .section--training .training-list li a .thumbnail.design-intro {
+            background: rgba(170, 255, 191, 0.4); }
+          /* line 35, components/_trainings.sass */
+          .section--training .training-list li a .thumbnail.swift-intro {
+            background: rgba(235, 255, 164, 0.4); }
+          /* line 37, components/_trainings.sass */
+          .section--training .training-list li a .thumbnail.html-intro-pack {
+            background: rgba(255, 180, 254, 0.4); }
+          /* line 39, components/_trainings.sass */
+          .section--training .training-list li a .thumbnail img {
+            width: 80px;
+            display: block;
+            margin: 40px auto;
+            transition: 0.3s;
+            transform: scale(1); }
+        /* line 45, components/_trainings.sass */
+        .section--training .training-list li a h3 {
+          margin: 0;
+          padding: 0;
+          font-size: 1.2em; }
+        /* line 51, components/_trainings.sass */
+        .section--training .training-list li a sub span:before {
+          content: " • ";
+          color: #9B9B9B; }
+        /* line 54, components/_trainings.sass */
+        .section--training .training-list li a sub span.rookie {
+          color: #7ED321; }
+        /* line 56, components/_trainings.sass */
+        .section--training .training-list li a sub span.pro {
+          color: #F5A623; }
+      /* line 60, components/_trainings.sass */
+      .section--training .training-list li:hover .thumbnail.html-intro {
+        background: #b2ffe8; }
+      /* line 62, components/_trainings.sass */
+      .section--training .training-list li:hover .thumbnail.design-intro {
+        background: #aaffbf; }
+      /* line 64, components/_trainings.sass */
+      .section--training .training-list li:hover .thumbnail.swift-intro {
+        background: #ebffa4; }
+      /* line 66, components/_trainings.sass */
+      .section--training .training-list li:hover .thumbnail.html-intro-pack {
+        background: #ffb4fe; }
+      /* line 68, components/_trainings.sass */
+      .section--training .training-list li:hover .thumbnail img {
+        transform: scale(1.1); }
+
+/* line 1, components/_contacts.sass */
+.section--contact {
+  background: #FCFBF8;
+  border-radius: 4px;
+  text-align: center;
+  padding: 100px 0 80px; }
+  /* line 6, components/_contacts.sass */
+  .section--contact h2 {
+    font-size: 2em;
+    margin: 0 0 10px; }
+  /* line 9, components/_contacts.sass */
+  .section--contact p {
+    font-size: 1.3em;
+    font-weight: 300;
+    margin: 0; }
+  /* line 13, components/_contacts.sass */
+  .section--contact .contact-list {
+    display: flex;
+    list-style: none;
+    margin: 50px auto 0;
+    padding: 0;
+    width: 800px; }
+    /* line 19, components/_contacts.sass */
+    .section--contact .contact-list li {
+      width: 33%; }
+      /* line 22, components/_contacts.sass */
+      .section--contact .contact-list li a:hover img {
+        transform: scale(1.1); }
+      /* line 24, components/_contacts.sass */
+      .section--contact .contact-list li img {
+        width: 80px;
+        transition: 0.3s;
+        transform: scale(1); }
+      /* line 28, components/_contacts.sass */
+      .section--contact .contact-list li h3 {
+        line-height: 1.4em;
+        margin-bottom: 5px; }
+      /* line 31, components/_contacts.sass */
+      .section--contact .contact-list li p {
+        font-size: 1em; }
