@@ -1,30 +1,39 @@
 fr:
+  header:
+    logo: |
+      <span>🎓</span> Muxu<span>•</span>Academy
+    city:
+      bordeaux: <span>🍇</span> Bordeaux
   hero:
-    logo: 🎓 Muxu•Academy
-    title: S’initier aux bases de l’Internet :-)
+    title: S’initier aux bases de l’Internet
     subtext: developpement • design ux & ui • app store marketing
   trainings:
     title: Nos sessions à Bordeaux
-    text: Chaque session est effectuée au Bac à Sable dans le centre de Bordeaux, dans une ambiance détendue. Nous pensons que c’est le meilleur environnement pour s’initier efficacement. Chaque session a un maximum de 8 participants.
+    text: |
+      Chaque session est effectuée au Bac à Sable dans le centre de Bordeaux, dans une ambiance détendue. <br><br>Nous pensons que c’est le meilleur environnement pour s’initier efficacement. Chaque session a un maximum de 8 participants.
     list:
       html-intro:
         title: Introduction au HTML et CSS
-        informations: Samedi 10 Octobre • Débutant
+        date: Samedi 10 Octobre
+        level: <span class="rookie">Débutant</span>
         text: |
           Tu n’as jamais codé de site Internet et tu cherches la meilleure introduction ? Ce cours est pour toi.
       design-intro:
         title: Introduction au design d’interface
-        informations: Dimanche 11 Octobre • Débutant
+        date: Dimanche 11 Octobre
+        level: <span class="rookie">Débutant</span>
         text: |
           Tu veux apprendre à créer des interfaces et tu cherches la meilleure introduction ? Prépare tes pinceaux !
       swift-intro:
         title: Introduction à Swift pour iOS
-        informations: Samedi 17 Octobre • Débutant
+        date: Samedi 17 Octobre
+        level: <span class="pro">Avancé</span>
         text: |
           Tu veux t’initier au développement sur iOS et tu as déjà de bonnes bases en code ? Viens créer ta première app !
       html-intro-pack:
         title: Intégrateur en herbe
-        informations: Samedi 10 & Dimanche 11 Octobre • Débutant
+        date: Samedi 10 & Dimanche 11 Octobre
+        level: <span class="rookie">Débutant</span>
         text: |
           Un week-end entier pour t’initier aux bases de l’intégration avec du HTML, CSS et design d’interface. 👑
   contacts:
@@ -32,10 +41,22 @@ fr:
     text: On te répond dès qu’on reçoit ton message (ou vraiment pas longtemps après).
     list:
       mail:
-        title: Un courriel, old school style.
+        title: |
+          Un courriel, old<br> school style.
+        text: hi@muxu.academy
+        url: |
+          mailto:academy@muxumuxu.com
       twitter:
-        title: Un message direct sur Twitter, classico.
-      tel:
-        title: Un coup de bigophone, ça marche aussi.
+        title: |
+          Un message direct sur<br> Twitter, classico.
+        text: |
+          @wearemuxu
+        url: http://twitter.com/wearemuxu
+      phone:
+        title: |
+          Un coup de bigophone,<br> ça marche aussi.
+        text: +33 6 42 32 12 12
+        url: |
+          tel:06 42 32 12 12
   footer:
-    text: Made with 💚 by muxu•muxu in sunny bordeaux
+    text: Made with 💚 by muxu<span>•</span>muxu in sunny bordeaux

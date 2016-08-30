@@ -1,6 +1,8 @@
 .hero
   header
-    .logo = t 'hero.logo'
+    = link_to "#", target: '_blank', class: 'logo'
+      = t 'header.logo'
+    .city = t 'header.city.bordeaux'
   h1 = t 'hero.title'
   p = t 'hero.subtext'
 

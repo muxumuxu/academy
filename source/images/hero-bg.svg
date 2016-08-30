@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="780px" height="88px" viewBox="0 0 780 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+
+      svg * {
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+      }
+
+      #clouds-fg {
+          transform: translateX(0) translateY(2px);
+          animation: clouds-animation-fg 20s ease-in-out infinite;
+      }
+
+      @keyframes clouds-animation-fg {
+        O% { transform: translateX(0) translateY(2px); }
+        50% { transform: translateX(100px) translateY(2px); }
+        100% { transform: translateX(0) translateY(2px); }
+      }
+
+      #clouds-bg {
+          transform: translateX(0) translateY(2px);
+          animation: clouds-animation-bg 30s ease-in-out infinite;
+      }
+
+      @keyframes clouds-animation-bg {
+        O% { transform: translateX(0) translateY(2px); }
+        50% { transform: translateX(100px) translateY(2px); }
+        100% { transform: translateX(0) translateY(2px); }
+      }
+
+    </style>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.05">
+        <g id="Artboard" transform="translate(-7.000000, -325.000000)">
+            <g id="bg" transform="translate(7.000000, 325.000000)">
+                <g id="clouds-fg" transform="translate(19.000000, 1.000000)" stroke="#000000" stroke-width="2">
+                    <path d="M197,36.9835977 C193.090984,36.7263047 190,33.4741213 190,29.5 C190,25.4417898 193.223173,22.136392 197.249211,22.004114 C198.405796,16.2964637 203.451152,12 209.5,12 C216.403559,12 222,17.5964406 222,24.5 C222,25.0127934 221.969122,25.5183749 221.909124,26.0149865 C224.755628,26.2242959 227,28.6000473 227,31.5 C227,34.3690213 224.80325,36.7249641 222,36.9775785 L222,37 L197,37 L197,36.9835977 Z" id="cloud"></path>
+                    <path d="M7,49.9835977 C3.09098409,49.7263047 0,46.4741213 0,42.5 C0,38.4417898 3.2231728,35.136392 7.2492109,35.004114 C8.40579648,29.2964637 13.4511518,25 19.5,25 C26.4035594,25 32,30.5964406 32,37.5 C32,38.0127934 31.9691219,38.5183749 31.9091236,39.0149865 C34.7556276,39.2242959 37,41.6000473 37,44.5 C37,47.3690213 34.80325,49.7249641 32,49.9775785 L32,50 L7,50 L7,49.9835977 Z" id="cloud"></path>
+                </g>
+                <g id="clouds-bg" transform="translate(19.000000, 1.000000)" stroke="#000000" stroke-width="2">
+                    <path d="M631,63.9835977 C627.090984,63.7263047 624,60.4741213 624,56.5 C624,52.4417898 627.223173,49.136392 631.249211,49.004114 C632.405796,43.2964637 637.451152,39 643.5,39 C650.403559,39 656,44.5964406 656,51.5 C656,52.0127934 655.969122,52.5183749 655.909124,53.0149865 C658.755628,53.2242959 661,55.6000473 661,58.5 C661,61.3690213 658.80325,63.7249641 656,63.9775785 L656,64 L631,64 L631,63.9835977 Z" id="cloud"></path>
+                    <path d="M418,24.9835977 C414.090984,24.7263047 411,21.4741213 411,17.5 C411,13.4417898 414.223173,10.136392 418.249211,10.004114 C419.405796,4.29646365 424.451152,0 430.5,0 C437.403559,0 443,5.59644063 443,12.5 C443,13.0127934 442.969122,13.5183749 442.909124,14.0149865 C445.755628,14.2242959 448,16.6000473 448,19.5 C448,22.3690213 445.80325,24.7249641 443,24.9775785 L443,25 L418,25 L418,24.9835977 Z" id="cloud" transform="translate(429.500000, 12.500000) scale(-1, 1) translate(-429.500000, -12.500000) "></path>
+                </g>
+                <g id="tree" transform="translate(303.000000, 34.000000)">
+                    <path d="M16,43 C24.836556,43 32,35.836556 32,27 C32,18.163444 24.836556,0 16,0 C7.163444,0 0,18.163444 0,27 C0,35.836556 7.163444,43 16,43 Z" id="egg" stroke="#000000" stroke-width="2" fill="#FCFBF8"></path>
+                    <rect id="bg" fill="#000000" x="15" y="21" width="2" height="33"></rect>
+                    <rect id="bg" fill="#000000" transform="translate(13.000000, 32.000000) rotate(-45.000000) translate(-13.000000, -32.000000) " x="12" y="27" width="2" height="10"></rect>
+                    <rect id="bg" fill="#000000" transform="translate(20.000000, 25.000000) scale(-1, 1) rotate(-45.000000) translate(-20.000000, -25.000000) " x="19" y="20" width="2" height="10"></rect>
+                </g>
+                <g id="phone" transform="translate(480.000000, 21.000000)">
+                    <rect id="bg" stroke="#000000" stroke-width="2" x="0" y="0" width="40" height="66" rx="5"></rect>
+                    <rect id="line" stroke="#000000" stroke-width="2" x="4" y="11" width="32" height="43"></rect>
+                    <rect id="line" fill="#000000" x="16" y="5" width="8" height="2" rx="1"></rect>
+                    <rect id="line" fill="#000000" x="18" y="58" width="4" height="4" rx="2"></rect>
+                </g>
+                <g id="watch" transform="translate(546.000000, 43.000000)" stroke="#000000" stroke-width="2">
+                    <rect id="bg" x="5" y="0" width="22" height="11" rx="5"></rect>
+                    <rect id="bg" x="5" y="33" width="22" height="11" rx="5"></rect>
+                    <rect id="button" fill="#FCFBF8" x="31" y="14" width="4" height="7" rx="2"></rect>
+                    <rect id="screen" fill="#FCFBF8" x="0" y="6" width="32" height="32" rx="4"></rect>
+                </g>
+                <g id="computer" transform="translate(330.000000, 12.000000)">
+                    <rect id="bg" stroke="#000000" stroke-width="2" fill="#FCFBF8" x="10" y="0" width="100" height="68" rx="3"></rect>
+                    <path d="M0,68 L120,68 L120,71.9907455 C120,73.6527109 118.652344,75 117.003753,75 L2.99624738,75 C1.34146565,75 0,73.6503296 0,71.9907455 L0,68 L0,68 Z" id="Combined-Shape" stroke="#000000" stroke-width="2" fill="#FCFBF8"></path>
+                    <rect id="bg" fill="#000000" x="49" y="69" width="22" height="2"></rect>
+                    <rect id="line" fill="#000000" x="56" y="3" width="8" height="2" rx="1"></rect>
+                    <rect id="Rectangle-2" stroke="#000000" stroke-width="2" fill="#FCFBF8" x="15" y="8" width="90" height="55"></rect>
+                </g>
+                <g id="media" transform="translate(226.000000, 27.000000)">
+                    <rect id="bg" stroke="#000000" stroke-width="2" fill="#FCFBF8" x="2" y="0" width="70" height="50"></rect>
+                    <rect id="lenght" fill="#000000" x="13" y="43" width="54" height="2" rx="1"></rect>
+                    <rect id="lenght" fill="#000000" x="7" y="43" width="4" height="2" rx="1"></rect>
+                    <rect id="bg" fill="#000000" x="7" y="51" width="2" height="10"></rect>
+                    <rect id="bg" fill="#000000" x="65" y="51" width="2" height="10"></rect>
+                    <rect id="bg" fill="#000000" x="36" y="51" width="2" height="10"></rect>
+                    <path d="M32.5422999,31.4220208 C31.1382264,32.2935146 30,31.6470745 30,30.0074602 L30,17.9925398 C30,16.3398057 31.1377907,15.7062149 32.5422999,16.5779792 L41.9577001,22.4220208 C43.3617736,23.2935146 43.3622093,24.7062149 41.9577001,25.5779792 L32.5422999,31.4220208 Z" id="player" fill="#000000"></path>
+                    <rect id="bg" stroke="#000000" stroke-width="2" fill="#FCFBF8" x="0" y="50" width="74" height="3"></rect>
+                </g>
+                <g id="glasses" transform="translate(598.000000, 66.000000)" stroke-width="2" stroke="#000000">
+                    <circle cx="10.5" cy="10.5" r="10.5"></circle>
+                    <circle cx="42.5" cy="10.5" r="10.5"></circle>
+                    <path d="M32,10.5 C32,7.46243388 29.5375661,5 26.5,5 C23.4624339,5 21,7.46243388 21,10.5"></path>
+                </g>
+                <g id="bird" transform="translate(132.000000, 52.000000)">
+                    <path d="M60,10 C60,23.8071187 49.0362847,35 35.5118565,35 C24.3718107,35 14.9691538,27.4058702 12,17.0118841 C15.1099913,18.4716863 18.5710252,19.2857143 22.2182928,19.2857143 C29.9112557,19.2857143 36.7756845,15.6641905 41.2650483,10 L60,10 Z" id="body" stroke="#000000" stroke-width="2"></path>
+                    <polygon id="bec" stroke="#000000" stroke-width="2" fill="#FCFBF8" points="60 16 60 9 66 9"></polygon>
+                    <path d="M38.8450263,10.5 L38.8351463,10.5 C38.5592977,20.2602719 32.5330055,28.5926616 24,32.2772009 C27.3904262,34.017249 31.2391979,35 35.3191973,35 C48.9500283,35 60,24.0309764 60,10.5 C60,4.70101013 55.2642978,0 49.4225131,0 C43.5807285,0 38.8450263,4.70101013 38.8450263,10.5 Z" id="body" stroke="#000000" stroke-width="2" fill="#FCFBF8"></path>
+                    <path d="M-7.37188088e-14,6 C0.76810244,7.56071246 1.69526009,9.02870044 2.76026092,10.3827045 C5.17309959,13.4503015 8.29346353,15.9328387 11.8746822,17.5830941 C11.9152685,17.7225751 11.9570451,17.8615477 12,18 M11.8746822,17.5830941 C11.2327919,15.3771438 10.8885919,13.0440078 10.8885919,10.6302999 C10.8885919,9.18026032 11.0128146,7.75929933 11.2511763,6.37752345" id="body" stroke="#000000" stroke-width="2"></path>
+                    <rect id="line" fill="#000000" x="1" y="6" width="11" height="2"></rect>
+                    <circle id="eye" fill="#000000" cx="53" cy="10" r="2"></circle>
+                </g>
+                <g id="tree" transform="translate(663.000000, 34.000000)">
+                    <path d="M16,43 C24.836556,43 32,35.836556 32,27 C32,18.163444 24.836556,0 16,0 C7.163444,0 0,18.163444 0,27 C0,35.836556 7.163444,43 16,43 Z" id="egg" stroke="#000000" stroke-width="2" fill="#FCFBF8"></path>
+                    <rect id="bg" fill="#000000" x="15" y="21" width="2" height="33"></rect>
+                    <rect id="bg" fill="#000000" transform="translate(13.000000, 32.000000) rotate(-45.000000) translate(-13.000000, -32.000000) " x="12" y="27" width="2" height="10"></rect>
+                    <rect id="bg" fill="#000000" transform="translate(20.000000, 25.000000) scale(-1, 1) rotate(-45.000000) translate(-20.000000, -25.000000) " x="19" y="20" width="2" height="10"></rect>
+                </g>
+                <path d="M140,66 L141,58 L131,58 L130,66 L140,66 Z M118,78 L113,78 L113,66 L120,66 L122,58 L115,58 L115,47 L124,47 L125,38 L135,38 L134,47 L142,47 L144,38 L154,38 L153,47 L158,47 L158,58 L151,58 L149,66 L156,66 L156,78 L147,78 L146,87 L136,87 L137,78 L129,78 L127,87 L117,87 L118,78 Z" id="#" stroke="#000000" stroke-width="2" fill="#FCFBF8"></path>
+                <g id="mario" transform="translate(743.000000, 64.000000)">
+                    <rect id="brick" stroke="#000000" stroke-width="2" fill="#FCFBF8" x="0" y="0" width="10" height="10"></rect>
+                    <rect id="brick" stroke="#000000" stroke-width="2" fill="#FCFBF8" x="10" y="0" width="10" height="10"></rect>
+                    <path d="M13.7814346,6.56540084 L15.4438819,6.56540084 L15.4438819,8 L13.7814346,8 L13.7814346,6.56540084 Z M13.9164557,4.66666667 L13.9839662,4.5907173 C14.4734202,4.55133595 14.8165954,4.47398089 15.0135021,4.35864979 C15.2104089,4.24331869 15.3088608,4.09564084 15.3088608,3.91561181 L15.3088608,3.907173 C15.3088608,3.76089941 15.254009,3.6469765 15.1443038,3.56540084 C15.0345986,3.48382519 14.878482,3.44303797 14.6759494,3.44303797 C14.4790426,3.44303797 14.2737001,3.49085747 14.0599156,3.58649789 C13.8461311,3.68213831 13.6407886,3.81997097 13.4438819,4 L12.6,2.88607595 C12.8587917,2.62728422 13.1653991,2.41490941 13.5198312,2.24894515 C13.8742634,2.08298089 14.2962001,2 14.785654,2 C15.0950789,2 15.379183,2.04078722 15.6379747,2.12236287 C15.8967664,2.20393852 16.1189864,2.32067435 16.3046414,2.47257384 C16.4902963,2.62447333 16.6351612,2.81012549 16.7392405,3.02953586 C16.8433198,3.24894624 16.8953586,3.49648245 16.8953586,3.7721519 L16.8953586,3.78902954 C16.8953586,4.05344717 16.853165,4.28269945 16.7687764,4.47679325 C16.6843878,4.67088705 16.5690584,4.83684882 16.4227848,4.97468354 C16.2765112,5.11251827 16.1035172,5.22644118 15.9037975,5.3164557 C15.7040778,5.40647021 15.4860771,5.47960591 15.249789,5.53586498 L15.1485232,6.07594937 L14.1274262,6.07594937 L13.9164557,4.66666667 Z" id="?" fill="#000000"></path>
+                    <rect id="brick" stroke="#000000" stroke-width="2" fill="#FCFBF8" x="20" y="0" width="10" height="10"></rect>
+                </g>
+                <g id="tunnel" transform="translate(30.000000, 48.000000)" stroke="#000000" stroke-width="2" fill="#FCFBF8">
+                    <rect x="47" y="19" width="18" height="23"></rect>
+                    <rect x="45" y="16" width="22" height="5"></rect>
+                    <g id="mario">
+                        <rect id="brick" x="0" y="0" width="10" height="10"></rect>
+                        <rect id="brick" x="10" y="0" width="10" height="10"></rect>
+                        <rect id="brick" x="20" y="0" width="10" height="10"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

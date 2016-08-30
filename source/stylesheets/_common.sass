@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6
   font: $font-title
   color: $color-title
 
+p
+  line-height: 1.6em
+  font-weight: 300
+
 a
   color: inherit
   text-decoration: none
@@ -28,6 +32,58 @@ a
   &:hover
     background-color: #24B324
 
-section
+header
+  font-weight: normal
+  letter-spacing: 0.05em
+  .logo, .city
+    &:hover
+      span
+        transition: 1s
+        transform: rotate(360deg)
+        display: inline-block
+
+    span
+      color: $color-brand
+  .logo
+    color: $color-title
+    float: left
+  .city
+    float: right
+
+section, header
   max-width: 1040px
   margin: auto
+
+footer
+  text-align: center
+  padding: 100px 0
+  text-transform: uppercase
+  font-size: 0.6em
+  letter-spacing: 0.8em
+  span
+    color: $color-brand
+
+@media screen and (max-width: 880px)
+  .section--training
+    display: block !important
+    width: auto !important
+    padding: 100px 20px 40px !important
+    .training-intro
+      width: auto !important
+      margin: 0 !important
+    .training-list
+      width: auto !important
+      display: block !important
+      li
+        width: auto !important
+        margin: 0 0 50px !important
+        .thumbnail
+          width: auto !important
+  .section--contact
+    .contact-list
+      display: block !important
+      width: auto !important
+      li
+        width: auto !important
+        display: block
+        margin-bottom: 40px
