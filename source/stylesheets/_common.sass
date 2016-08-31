@@ -50,6 +50,8 @@ header
     float: left
   .city
     float: right
+    &:hover
+      color: $color-brand
 
 .wrapper
   background: white
@@ -60,18 +62,25 @@ section, header
 
 footer
   text-align: center
-  padding: 100px 0
+  padding: 100px 0 120px
   background: white
-  span
-    color: $color-brand
-  ul
-    li
-      display: inline-block
-      margin: 0 10px
-  p
-    text-transform: uppercase
-    font-size: 0.6em
-    letter-spacing: 0.8em
+  section
+    overflow: hidden
+    font-size: 0.8em
+    a:hover
+      color: $color-brand
+    span
+      color: $color-brand
+    ul
+      float: left
+      margin: 0
+      padding: 0
+      li
+        display: inline-block
+        margin: 0 30px 0 0
+    .copyright
+      float: right
+      display: block
 
 @media screen and (max-width: 880px)
   .section--training
@@ -97,3 +106,14 @@ footer
         width: auto !important
         display: block
         margin-bottom: 40px
+  footer
+    text-align: center !important
+    a
+      padding: 20px 0 !important
+    a, ul
+      float: none !important
+    ul
+      li
+        margin: 0 !important
+        display: block !important
+        padding: 20px 0 !important

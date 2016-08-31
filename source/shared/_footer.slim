@@ -1,12 +1,12 @@
+footer
+  section
+    ul
+      li
+        = link_to "/team"
+          = t 'footer.team'
+      li
+        = link_to "/corporate"
+          = t 'footer.corp'
 
-ul
-  li
-    = link_to "/team"
-      = t 'footer.team'
-  li
-    = link_to "/corporate"
-      = t 'footer.corp'
-
-p
-  = link_to "http://muxumuxu.com/", target: '_blank'
-    = t 'footer.text'
+    = link_to "http://muxumuxu.com/", target: '_blank', class: 'copyright'
+      = t 'footer.text'
