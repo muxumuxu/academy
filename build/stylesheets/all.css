@@ -54,105 +54,108 @@ a {
 header {
   font-weight: normal;
   letter-spacing: 0.05em; }
-  /* line 41, _common.sass */
-  header .logo:hover span, header .city:hover span {
-    transition: 1s;
-    transform: rotate(360deg);
-    display: inline-block; }
-  /* line 46, _common.sass */
+  /* line 40, _common.sass */
+  header .logo:hover, header .city:hover {
+    color: #33CC33; }
+    /* line 42, _common.sass */
+    header .logo:hover span, header .city:hover span {
+      transition: 1s;
+      transform: rotate(360deg);
+      display: inline-block; }
+  /* line 47, _common.sass */
   header .logo span, header .city span {
     color: #33CC33; }
-  /* line 48, _common.sass */
+  /* line 49, _common.sass */
   header .logo {
     color: #000000;
     float: left; }
-  /* line 51, _common.sass */
+  /* line 52, _common.sass */
   header .city {
     float: right; }
-    /* line 53, _common.sass */
+    /* line 54, _common.sass */
     header .city:hover {
       color: #33CC33; }
 
-/* line 56, _common.sass */
+/* line 57, _common.sass */
 .wrapper {
   background: white; }
 
-/* line 59, _common.sass */
+/* line 60, _common.sass */
 section, header {
   max-width: 1040px;
   margin: auto; }
 
-/* line 63, _common.sass */
+/* line 64, _common.sass */
 footer {
   text-align: center;
   padding: 100px 0 120px;
   background: white; }
-  /* line 67, _common.sass */
+  /* line 68, _common.sass */
   footer section {
     overflow: hidden;
     font-size: 0.8em; }
-    /* line 70, _common.sass */
+    /* line 71, _common.sass */
     footer section a:hover {
       color: #33CC33; }
-    /* line 72, _common.sass */
+    /* line 73, _common.sass */
     footer section span {
       color: #33CC33; }
-    /* line 74, _common.sass */
+    /* line 75, _common.sass */
     footer section ul {
       float: left;
       margin: 0;
       padding: 0; }
-      /* line 78, _common.sass */
+      /* line 79, _common.sass */
       footer section ul li {
         display: inline-block;
         margin: 0 30px 0 0; }
-    /* line 81, _common.sass */
+    /* line 82, _common.sass */
     footer section .copyright {
       float: right;
       display: block; }
 
 @media screen and (max-width: 880px) {
-  /* line 86, _common.sass */
+  /* line 87, _common.sass */
   .section--training {
     display: block !important;
     width: auto !important;
     padding: 100px 20px 40px !important; }
-    /* line 90, _common.sass */
+    /* line 91, _common.sass */
     .section--training .training-intro {
       width: auto !important;
       margin: 0 !important; }
-    /* line 93, _common.sass */
+    /* line 94, _common.sass */
     .section--training .training-list {
       width: auto !important;
       display: block !important; }
-      /* line 96, _common.sass */
+      /* line 97, _common.sass */
       .section--training .training-list li {
         width: auto !important;
         margin: 0 0 50px !important; }
-        /* line 99, _common.sass */
+        /* line 100, _common.sass */
         .section--training .training-list li .thumbnail {
           width: auto !important; }
 
-  /* line 102, _common.sass */
+  /* line 103, _common.sass */
   .section--contact .contact-list {
     display: block !important;
     width: auto !important; }
-    /* line 105, _common.sass */
+    /* line 106, _common.sass */
     .section--contact .contact-list li {
       width: auto !important;
       display: block;
       margin-bottom: 40px; }
 
-  /* line 109, _common.sass */
+  /* line 110, _common.sass */
   footer {
     text-align: center !important; }
-    /* line 111, _common.sass */
+    /* line 112, _common.sass */
     footer a {
       padding: 20px 0 !important; }
-    /* line 113, _common.sass */
+    /* line 114, _common.sass */
     footer a, footer ul {
       float: none !important; }
-    /* line 116, _common.sass */
+    /* line 117, _common.sass */
     footer ul li {
       margin: 0 !important;
       display: block !important;
@@ -177,16 +180,16 @@ footer {
 
 /* line 2, components/_trainings.sass */
 .hero.html-intro {
-  background: rgba(178, 255, 232, 0.4); }
+  background: rgba(178, 255, 232, 0.4) url(../images/hero-bg.svg) repeat-x bottom; }
 /* line 4, components/_trainings.sass */
 .hero.design-intro {
-  background: rgba(170, 255, 191, 0.4); }
+  background: rgba(170, 255, 191, 0.4) url(../images/hero-bg.svg) repeat-x bottom; }
 /* line 6, components/_trainings.sass */
 .hero.swift-intro {
-  background: rgba(235, 255, 164, 0.4); }
+  background: rgba(235, 255, 164, 0.4) url(../images/hero-bg.svg) repeat-x bottom; }
 /* line 8, components/_trainings.sass */
 .hero.html-intro-pack {
-  background: rgba(255, 180, 254, 0.4); }
+  background: rgba(255, 180, 254, 0.4) url(../images/hero-bg.svg) repeat-x bottom; }
 
 /* line 11, components/_trainings.sass */
 .section--training {
@@ -280,13 +283,56 @@ footer {
   overflow: hidden;
   padding: 100px 0; }
   /* line 84, components/_trainings.sass */
+  .section--training-content h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.7em; }
+  /* line 88, components/_trainings.sass */
+  .section--training-content .training-planning {
+    padding: 0 0 60px; }
+  /* line 90, components/_trainings.sass */
+  .section--training-content ul.informations {
+    list-style: none;
+    padding: 0 0 60px;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap; }
+    /* line 97, components/_trainings.sass */
+    .section--training-content ul.informations li {
+      flex-wrap: no-wrap;
+      flex-grow: 2;
+      width: 300px;
+      margin: 0 50px 0 0;
+      padding: 0 0 40px;
+      float: left; }
+      /* line 104, components/_trainings.sass */
+      .section--training-content ul.informations li ul {
+        padding: 0 0 0 16px;
+        margin: 0; }
+        /* line 107, components/_trainings.sass */
+        .section--training-content ul.informations li ul li {
+          margin: 0 0 10px;
+          padding: 0; }
+  /* line 111, components/_trainings.sass */
   .section--training-content .main {
     float: left;
     width: 700px; }
-  /* line 87, components/_trainings.sass */
+  /* line 114, components/_trainings.sass */
   .section--training-content .side {
     float: right;
     width: 300px; }
+    /* line 118, components/_trainings.sass */
+    .section--training-content .side .price strong {
+      font-size: 2em;
+      display: block; }
+    /* line 121, components/_trainings.sass */
+    .section--training-content .side .price .sign-up {
+      background: #ff4141;
+      color: white;
+      border-radius: 4px;
+      text-align: center;
+      padding: 16px 0; }
 
 /* line 1, components/_contacts.sass */
 .section--contact {

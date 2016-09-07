@@ -2,10 +2,6 @@
   = partial 'shared/header'
   h1 = t 'trainings.list.swift-intro.title'
   p = t 'trainings.list.swift-intro.title'
-  = link_to "#"
-    = t 'trainings.session.price-range.normal-price'
-    = t 'trainings.session.price-range.normal-comparative'
-    = t 'trainings.session.sign-up'
 
 .wrapper
   section.section--training-content
@@ -34,6 +30,10 @@
             p = t 'trainings.list.swift-intro.tools.text'
 
     .side
+      = link_to "#", class: "price"
+        strong = t 'trainings.session.price-range.normal-price'
+        = t 'trainings.session.price-range.normal-comparative'
+        .sign-up = t 'trainings.session.sign-up'
       .training-informations
         h2 = t 'trainings.informations.title'
       .training-testimonial

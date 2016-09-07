@@ -22,8 +22,8 @@ fr:
         why-us:
           title: Pourquoi Muxu•Academy
           text: |
-            Beaucoup d’écoles se concentrent sur la théorie. Pas nous. Nous voulons que tu puisses t’exprimer et créer tout de suite.
-            Toutes nos leçons sont 100% axées sur la pratique.
+            Beaucoup d’écoles se concentrent sur la théorie. Pas nous. Nous voulons que tu puisses t’exprimer et créer tout de suite.<br/><br/>
+            Toutes nos leçons sont 100% axées sur la pratique.<br/><br/>
             Lors de nos initiations, nous utilisons des exemples que tu peux modifier à ta guise pour les adapter à ton besoin et tes envies.
         conditions:
           title: Remboursement
@@ -41,7 +41,7 @@ fr:
       title: Ton professeur
       list:
         luc: |
-          Luc Chaissac est un autodidacte, professeur à l’ECV de Bordeaux et Directeur Artistique d’Azendoo.
+          Luc Chaissac est un autodidacte, professeur à l’ECV de Bordeaux et Directeur Artistique d’Azendoo.<br/><br/>
           Luc est porteur de plusieurs projets tels que les D&B Talks, Tada ou encore Muxu•Muxu. Il  a pour ambition de rendre le design et le code  davantage accessibles au grand public, pour que chacun puisse exprimer sa créativité.
     list:
       html-intro:
