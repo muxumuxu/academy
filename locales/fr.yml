@@ -11,6 +11,38 @@ fr:
     title: Nos sessions à Bordeaux
     text: |
       Chaque session est effectuée au Bac à Sable dans le centre de Bordeaux, dans une ambiance détendue. <br><br>Nous pensons que c’est le meilleur environnement pour s’initier efficacement. Chaque session a un maximum de 8 participants.
+    session:
+      sign-up: Je m'inscris
+      price-range:
+        normal-comparative: Soit des 10 pintes
+        normal-price: 50€
+    informations:
+      title: Informations
+      list:
+        why-us:
+          title: Pourquoi Muxu•Academy
+          text: |
+            Beaucoup d’écoles se concentrent sur la théorie. Pas nous. Nous voulons que tu puisses t’exprimer et créer tout de suite.
+            Toutes nos leçons sont 100% axées sur la pratique.
+            Lors de nos initiations, nous utilisons des exemples que tu peux modifier à ta guise pour les adapter à ton besoin et tes envies.
+        conditions:
+          title: Remboursement
+          text: |
+            Nous animons des formations depuis longtemps et nous pensons que tu vas apprécier chacunes de nos initiations. Si toutefois ce n’était pas le cas, nous pourrons te rembourser.
+    testimonials:
+      title: Témoignagnes
+      list:
+        audrey:
+          text: |
+            « Luc est très patient et à l’écoute. Il m’a accompagné sur ma phase d’apprentissage du code. Maintenant je continue sur ma lancée pour rejoindre la prochaine promo du Wagon. Grâce à ce qu’il m’a appris j’ai pu intégrer mon site perso et je sais que j’aurai des facilités pour apprendre d’autres langages informatiques. »
+          name: |
+            Audrey Labuxiere - Responsable relation-client
+    teachers:
+      title: Ton professeur
+      list:
+        luc: |
+          Luc Chaissac est un autodidacte, professeur à l’ECV de Bordeaux et Directeur Artistique d’Azendoo.
+          Luc est porteur de plusieurs projets tels que les D&B Talks, Tada ou encore Muxu•Muxu. Il  a pour ambition de rendre le design et le code  davantage accessibles au grand public, pour que chacun puisse exprimer sa créativité.
     list:
       html-intro:
         title: Introduction au HTML et CSS
@@ -18,24 +50,108 @@ fr:
         level: <span class="rookie">Débutant</span>
         text: |
           Tu n’as jamais codé de site Internet et tu cherches la meilleure introduction ? Ce cours est pour toi.
+        informations:
+          learn:
+            title: Ce que tu vas apprendre
+            text: |
+              <li>Ce qu’est le code, le HTML et le CSS, et comment ces 2 langages fonctionnent ensemble.</li>
+              <li>Comment construire ton premier site Internet et le mettre à jour quand tu veux.</li>
+              <li>Comment adapter ton site Internet à différents appareils - du plus gros écran au plus petit téléphone.</li>
+          attendees:
+            title: À qui s'adresse ce cours
+            text: |
+              <li>Aux débutants et néophytes du code, qui souhaitent apprendre à construire un site Internet.</li>
+              <li>A tous les créatifs, qu’ils travaillent dans le design ou le marketing.</li>
+              <li>Aux personnes qui souhaitent s’initier au code et comprendre comment le développement informatique fonctionne.</li>
+        tools:
+          title: Matériel
+          text: |
+            Tu auras besoin d’un ordinateur portable avec la dernière version de Chrome ou Safari + votre chargeur.
+        planning:
+          title: Planning
+          text: |
+            <li><strong>10.00	–	10.30</strong> Introduction to programming and how HTML and CSS work together to create websites</li>
       design-intro:
         title: Introduction au design d’interface
         date: Dimanche 11 Octobre
         level: <span class="rookie">Débutant</span>
         text: |
           Tu veux apprendre à créer des interfaces et tu cherches la meilleure introduction ? Prépare tes pinceaux !
+        informations:
+          learn:
+            title: Ce que tu vas apprendre
+            text: |
+              <li>Ce qu’est le code, le HTML et le CSS, et comment ces 2 langages fonctionnent ensemble.</li>
+              <li>Comment construire ton premier site Internet et le mettre à jour quand tu veux.</li>
+              <li>Comment adapter ton site Internet à différents appareils - du plus gros écran au plus petit téléphone.</li>
+          attendees:
+            title: À qui s'adresse ce cours
+            text: |
+              <li>Aux débutants et néophytes du code, qui souhaitent apprendre à construire un site Internet.</li>
+              <li>A tous les créatifs, qu’ils travaillent dans le design ou le marketing.</li>
+              <li>Aux personnes qui souhaitent s’initier au code et comprendre comment le développement informatique fonctionne.</li>
+        tools:
+          title: Matériel
+          text: |
+            Tu auras besoin d’un ordinateur portable avec la dernière version de Chrome ou Safari + votre chargeur.
+        planning:
+          title: Planning
+          text: |
+            <li><strong>10.00	–	10.30</strong> Introduction to programming and how HTML and CSS work together to create websites</li>
       swift-intro:
         title: Introduction à Swift pour iOS
         date: Samedi 17 Octobre
         level: <span class="pro">Avancé</span>
         text: |
           Tu veux t’initier au développement sur iOS et tu as déjà de bonnes bases en code ? Viens créer ta première app !
+        informations:
+          learn:
+            title: Ce que tu vas apprendre
+            text: |
+              <li>Ce qu’est le code, le HTML et le CSS, et comment ces 2 langages fonctionnent ensemble.</li>
+              <li>Comment construire ton premier site Internet et le mettre à jour quand tu veux.</li>
+              <li>Comment adapter ton site Internet à différents appareils - du plus gros écran au plus petit téléphone.</li>
+          attendees:
+            title: À qui s'adresse ce cours
+            text: |
+              <li>Aux débutants et néophytes du code, qui souhaitent apprendre à construire un site Internet.</li>
+              <li>A tous les créatifs, qu’ils travaillent dans le design ou le marketing.</li>
+              <li>Aux personnes qui souhaitent s’initier au code et comprendre comment le développement informatique fonctionne.</li>
+        tools:
+          title: Matériel
+          text: |
+            Tu auras besoin d’un ordinateur portable avec la dernière version de Chrome ou Safari + votre chargeur.
+        planning:
+          title: Planning
+          text: |
+            <li><strong>10.00	–	10.30</strong> Introduction to programming and how HTML and CSS work together to create websites</li>
       html-intro-pack:
         title: Intégrateur en herbe
         date: Samedi 10 & Dimanche 11 Octobre
         level: <span class="rookie">Débutant</span>
         text: |
           Un week-end entier pour t’initier aux bases de l’intégration avec du HTML, CSS et design d’interface. 👑
+        informations:
+          learn:
+            title: Ce que tu vas apprendre
+            text: |
+              <li>Ce qu’est le code, le HTML et le CSS, et comment ces 2 langages fonctionnent ensemble.</li>
+              <li>Comment construire ton premier site Internet et le mettre à jour quand tu veux.</li>
+              <li>Comment adapter ton site Internet à différents appareils - du plus gros écran au plus petit téléphone.</li>
+          attendees:
+            title: À qui s'adresse ce cours
+            text: |
+              <li>Aux débutants et néophytes du code, qui souhaitent apprendre à construire un site Internet.</li>
+              <li>A tous les créatifs, qu’ils travaillent dans le design ou le marketing.</li>
+              <li>Aux personnes qui souhaitent s’initier au code et comprendre comment le développement informatique fonctionne.</li>
+        tools:
+          title: Matériel
+          text: |
+            Tu auras besoin d’un ordinateur portable avec la dernière version de Chrome ou Safari + votre chargeur.
+        planning:
+          title: Planning
+          text: |
+            <li><strong>10.00	–	10.30</strong> Introduction to programming and how HTML and CSS work together to create websites</li>
   contacts:
     title: Tu as des questions ?
     text: On te répond dès qu’on reçoit ton message (ou vraiment pas longtemps après).

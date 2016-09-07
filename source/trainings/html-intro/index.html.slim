@@ -2,3 +2,46 @@
   = partial 'shared/header'
   h1 = t 'trainings.list.html-intro.title'
   p = t 'trainings.list.html-intro.title'
+  = link_to "#"
+    = t 'trainings.session.price-range.normal-price'
+    = t 'trainings.session.price-range.normal-comparative'
+    = t 'trainings.session.sign-up'
+
+.wrapper
+  section.section--training-content
+    .main
+      .training-informations
+        ul.informations
+          - t('trainings.list.html-intro.informations').each do |id, information|
+            li
+              h2 = information[:title]
+              ul = information[:text]
+      .training-planning
+        h2 = t 'trainings.list.html-intro.planning.title'
+        ul 
+          = t 'trainings.list.html-intro.planning.text'
+      .training-informations
+        ul.informations
+          li
+            h2 = t 'trainings.teachers.title'
+            p = t 'trainings.teachers.list.luc'
+          - t('trainings.informations.list').each do |id, information|
+            li
+              h2 = information[:title]
+              p = information[:text]
+          li
+            h2 = t 'trainings.list.html-intro.tools.title'
+            p = t 'trainings.list.html-intro.tools.text'
+
+    .side
+      .training-informations
+        h2 = t 'trainings.informations.title'
+      .training-testimonial
+        h2 = t 'trainings.testimonials.title'
+        ul
+          - t('trainings.testimonials.list').each do |id, testimonial|
+            li  
+              = testimonial[:text]
+              strong = testimonial[:name]
+
+  = partial 'shared/contacts'
